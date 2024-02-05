@@ -10,9 +10,9 @@ Therefore, I used data from Seattle Airbnb 2016-2017 open data, to take a closer
 
 The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 
-•	Listings, including full descriptions and average review score.
-•	Reviews, including unique id for each reviewer and detailed comments.
-•	Calendar, including listing id and the price and availability for that day.
+Listings, including full descriptions and average review score.
+Reviews, including unique id for each reviewer and detailed comments.
+Calendar, including listing id and the price and availability for that day.
 
 <p align="center">
   <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/airbnb.png" width="350" title="hover text">
