@@ -1,5 +1,3 @@
-# What to Look For When Booking a Space in Seattle
-
 ## Introduction
 
   There are many competing views on what you should look for while booking a space when traveling, specifically when it comes to price. People usually debate which season, area or accommodations has the biggest impact on the price.
@@ -13,3 +11,5 @@ The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 •	Listings, including full descriptions and average review score.
 •	Reviews, including unique id for each reviewer and detailed comments.
 •	Calendar, including listing id and the price and availability for that day.
+
+![alt text](https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/images/image.jpg?raw=true)
