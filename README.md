@@ -29,7 +29,7 @@ What would be the ideal time of year to visit Seattle if you wanted to vacation 
 The 2016 calendar and the total number of reservations for each month are shown here. January and July would undoubtedly be the busiest months of the year. 
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Bookings per Month.png" width="600" title="Figure 1: Bookings per Month"/><br>
+  <img src="./images/Bookings per Month.png" width="600" title="Figure 1: Bookings per Month"><br>
   Figure 1: Bookings per Month
 </p>
 
@@ -38,7 +38,7 @@ It is evident that most individuals would rather travel during the summer (June,
 Here you can see that prices also tend to spike greatly in the summer, and it reaches its cheapest during January and February. 
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Month.png" width="600" title="Figure 2: Price per Month"/><br>
+  <img src="./images/Price per Month.png" width="600" title="Figure 2: Price per Month"><br>
   Figure 2: Price per Month
 </p>
 
@@ -49,12 +49,12 @@ We may draw the conclusion that while summer travel is the most popular time for
 I was curious to see if reservations in a particular Seattle neighborhood would be more expensive or more difficult to come by, as indicated by the graphs below.
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Neighborhood.png" width="600" title="Figure 3: Price per Neighborhood"/><br>
+  <img src="./images/Price per Neighborhood.png" width="600" title="Figure 3: Price per Neighborhood"><br>
   Figure 3: Price per Neighborhood
 </p>
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 4: Review Scores Rating per Neighborhood"/><br>
+  <img src="./images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 4: Review Scores Rating per Neighborhood"><br>
   Figure 4: Review Scores Rating per Neighborhood
 </p>
 
@@ -69,7 +69,7 @@ Lastly, I wondered if there might be one or more features that have the biggest 
 To investigate further, I cleaned the data to create a correlation map for each feature with the other.
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 5: Correlation map"/><br>
+  <img src="./images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 5: Correlation map"><br>
   Figure 5: Correlation map
 </p>
 
