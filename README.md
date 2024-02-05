@@ -87,5 +87,5 @@ These are not the conclusions of a scientific study, but rather observational fi
 
 **What will you look for when booking?**
 
-To see more about this analysis, see the link to my GitHub available here.
+To see more about this analysis, see the link to my GitHub available [here](https://github.com/ReemAlessa1/Airbnb_data).
 
