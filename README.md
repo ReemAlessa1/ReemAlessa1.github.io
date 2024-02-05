@@ -29,12 +29,15 @@ What would be the ideal time of year to visit Seattle if you wanted to vacation 
 The 2016 calendar and the total number of reservations for each month are shown here. January and July would undoubtedly be the busiest months of the year. 
 
 <p align="center">
-<figure>
-    <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Bookings per Month.png" width="600" title="hover text">
-    <figcaption>Figure 1: Bookings per Month</figcaption>
-</figure>
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Bookings per Month.png" width="600" title="Figure 1: Bookings per Month"/>
+  Figure 1: Bookings per Month
 </p>
 
+![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
+
+![Test Image 7](https://github.com/tograh/testrepository/master/3DTest.png)
+
+![Test Image 8](https://raw.githubusercontent.com/tograh/testrepository/master/3DTest.png)
 
 It is evident that most individuals would rather travel during the summer (June, July, and August) than during any other season of the year.
 Here you can see that prices also tend to spike greatly in the summer, and it reaches its cheapest during January and February. 
