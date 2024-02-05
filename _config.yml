@@ -1,3 +1,5 @@
 layout: post
 theme: jekyll-theme-minimal
 title: What to Look For When Booking a Space in Seattle
+with:
+    lfs: true
