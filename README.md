@@ -16,8 +16,6 @@ The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 
 •	Calendar, including listing id and the price and availability for that day.
 
-![Book logo](https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Neighborhood.png)
-
 <p align="center">
   <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/airbnb.png" width="350" title="hover text">
 </p>
@@ -79,7 +77,7 @@ In this article, we discussed what to look for when booking a space in Seattle a
 
 We first looked at how booking prices might differ according to the month. After that, we examined how costs often vary by neighborhood. Finally, we looked at the correlation between prices and different features. We discovered that when a facility can accommodate more people, the prices increase.
 
-The findings here are observational, not the result of a formal study. So, the real question remains:
+These are not the conclusions of a scientific study, but rather observational findings. So, the real question remains:
 
 What will you look for when booking?
 
