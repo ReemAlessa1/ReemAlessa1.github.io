@@ -22,9 +22,7 @@ The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 
 ## Part I: What is the busiest time of the year to visit Seattle? by how much do prices spike?
 
-But the query that piqued my curiosity the most was.
-
-What would be the ideal time of year to visit Seattle if you wanted to vacation there without having to deal with the crowds? And how much would you save?
+But the query that piqued my curiosity the most was: What would be the ideal time of year to visit Seattle if you wanted to vacation there without having to deal with the crowds? And how much would you save?
 
 The 2016 calendar and the total number of reservations for each month are shown here. January and July would undoubtedly be the busiest months of the year. 
 
