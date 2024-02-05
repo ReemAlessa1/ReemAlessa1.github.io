@@ -69,7 +69,7 @@ Lastly, I wondered if there might be one or more features that have the biggest 
 To investigate further, I cleaned the data to create a correlation map for each feature with the other.
 
 <p align="center">
-  <img src="./images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 5: Correlation map"><br>
+  <img src="./images/Correlation map.png" width="600" title="Figure 5: Correlation map"><br>
   Figure 5: Correlation map
 </p>
 
