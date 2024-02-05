@@ -29,21 +29,17 @@ What would be the ideal time of year to visit Seattle if you wanted to vacation 
 The 2016 calendar and the total number of reservations for each month are shown here. January and July would undoubtedly be the busiest months of the year. 
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Bookings per Month.png" width="600" title="Figure 1: Bookings per Month"/>
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Bookings per Month.png" width="600" title="Figure 1: Bookings per Month"/><br>
   Figure 1: Bookings per Month
 </p>
 
-![Test Image 4](https://github.com/tograh/testrepository/3DTest.png)
-
-![Test Image 7](https://github.com/tograh/testrepository/master/3DTest.png)
-
-![Test Image 8](https://raw.githubusercontent.com/tograh/testrepository/master/3DTest.png)
 
 It is evident that most individuals would rather travel during the summer (June, July, and August) than during any other season of the year.
 Here you can see that prices also tend to spike greatly in the summer, and it reaches its cheapest during January and February. 
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Month.png" width="600" title="hover text">
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Month.png" width="600" title="Figure 2: Price per Month"/><br>
+  Figure 2: Price per Month
 </p>
 
 We may draw the conclusion that while summer travel is the most popular time for travelers to visit Seattle, winter travel is also very popular because of the low cost of living.
@@ -53,11 +49,13 @@ We may draw the conclusion that while summer travel is the most popular time for
 I was curious to see if reservations in a particular Seattle neighborhood would be more expensive or more difficult to come by, as indicated by the graphs below.
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Neighborhood.png" width="600" title="hover text">
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Price per Neighborhood.png" width="600" title="Figure 3: Price per Neighborhood"/><br>
+  Figure 3: Price per Neighborhood
 </p>
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="hover text">
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 4: Review Scores Rating per Neighborhood"/><br>
+  Figure 4: Review Scores Rating per Neighborhood
 </p>
 
 The first question I asked here was, “What is the most expensive neighborhood in Seattle?”. You can see in the graph below that Magnolia by far is the most expensive one, along with Queen Anne and Downtown. 
@@ -71,7 +69,8 @@ Lastly, I wondered if there might be one or more features that have the biggest 
 To investigate further, I cleaned the data to create a correlation map for each feature with the other.
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="hover text">
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/Review Scores Rating per Neighborhood.png" width="600" title="Figure 5: Correlation map"/><br>
+  Figure 5: Correlation map
 </p>
 
 Here, you can see that the features that have the biggest influence on the price are the type of room, the number of people it can accommodate, the number of bathrooms, bedrooms, and beds.
@@ -86,7 +85,7 @@ We first looked at how booking prices might differ according to the month. After
 
 These are not the conclusions of a scientific study, but rather observational findings. So, the real question remains:
 
-What will you look for when booking?
+**What will you look for when booking?**
 
 To see more about this analysis, see the link to my GitHub available here.
 
