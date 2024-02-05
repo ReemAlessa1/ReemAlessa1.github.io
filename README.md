@@ -17,7 +17,7 @@ The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 •	Calendar, including listing id and the price and availability for that day.
 
 <p align="center">
-  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/airbnb.png" width="350" title="hover text">
+  <img src="https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/airbnb.png" width="350" title="Airbnb logo">
 </p>
 
 ## Part I: What is the busiest time of the year to visit Seattle? by how much do prices spike?
