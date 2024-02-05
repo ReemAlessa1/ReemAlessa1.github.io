@@ -14,4 +14,4 @@ The data provided by Airbnb from 2016–04–04 to 2017–01–02 includes:
 •	Reviews, including unique id for each reviewer and detailed comments.
 •	Calendar, including listing id and the price and availability for that day.
 
-![Alt text](https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/images/aibnb.png?raw=true "Title")
+![Alt text]([https://github.com/ReemAlessa1/ReemAlessa1.github.io/blob/main/images/airbnb.png?raw=true "Title")
