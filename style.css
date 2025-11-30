@@ -1,24 +1,57 @@
+.split-screen {
+  display: flex;
+  height: 100vh; /* full viewport height */
+  flex-wrap: nowrap; /* keep left and right side in a row */
+}
+
+.split-screen .left,
+.split-screen .right {
+  flex: 1; /* each side takes 50% */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.split-screen .left {
+  background-color: #e6f2ff;
+}
+
+.split-screen .right {
+  background-color: #ffffff;
+  align-items: center; /* center items horizontally */
+  text-align: center;
+}
+
 .split-screen .right img {
   max-width: 80%;
   height: auto;
   border-radius: 10px;
-  display: block;
-  margin: 0 auto;
 }
 
-.split-screen .right .dummy-links {
+.contact-links,
+.dummy-links {
   list-style: none;
   padding: 0;
   margin-top: 1rem;
-  text-align: center;
 }
 
-.split-screen .right .dummy-links li {
+.contact-links li,
+.dummy-links li {
   margin-bottom: 0.5rem;
 }
 
-.split-screen .right .dummy-links li a {
+.contact-links li a,
+.dummy-links li a {
   text-decoration: none;
   color: #007acc;
   font-weight: 500;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .split-screen {
+    flex-direction: column;
+    height: auto;
+  }
 }
