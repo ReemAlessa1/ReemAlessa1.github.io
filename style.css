@@ -1,3 +1,6 @@
+/* ===============================
+   Global Styles
+================================= */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -6,6 +9,21 @@ body {
   color: #333;
 }
 
+a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===============================
+   Header / Navigation
+================================= */
 header {
   background-color: #f8f8f8;
   padding: 1rem 2rem;
@@ -27,81 +45,51 @@ nav {
 }
 
 .nav-links {
-  list-style: none;
   display: flex;
   gap: 1.5rem;
 }
 
-.nav-links li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
 .nav-links li a:hover {
-  color: #007acc;
+  color: #005f99;
 }
 
-/* Split-Screen Hero */
+/* ===============================
+   Split-Screen Layout
+================================= */
 .split-screen {
   display: flex;
   height: 100vh; /* full viewport height */
 }
 
-/* Left side: smaller and centered */
 .left-side {
-  flex: 1;               /* smaller portion */
-  display: flex;         /* make it a flex container */
-  flex-direction: column; /* stack content vertically */
+  flex: 1; /* smaller portion */
+  display: flex;
+  flex-direction: column;
   justify-content: center; /* vertical center */
-  align-items: center;   /* horizontal center */
+  align-items: center;     /* horizontal center */
   background-color: #f5f5f5;
   padding: 2rem;
-  text-align: center;     /* center text */
-}
-
-/* Right side: larger, left-aligned */
-.right-side {
-  flex: 2;               /* larger portion */
-  padding: 2rem;
-  background-color: #e6f2ff;
-  text-align: left;       /* left-aligned text */
-}
-
-.split-screen .left {
-  background-color: #e6f2ff;
-}
-
-.split-screen .right {
-  background-color: #ffffff;
-  align-items: center;
   text-align: center;
 }
 
-.split-screen .right img {
-  max-width: 80%;
-  height: auto;
-  border-radius: 10px;
+.right-side {
+  flex: 2; /* larger portion */
+  background-color: #e6f2ff;
+  padding: 2rem;
+  text-align: left; /* left-aligned text */
+  overflow-y: auto;
 }
 
-.contact-links {
-  list-style: none;
-  padding: 0;
-  margin-top: 1rem;
-}
-
+/* ===============================
+   Contact Links (Left Side)
+================================= */
 .contact-links li {
   margin-bottom: 0.5rem;
 }
 
-.contact-links li a {
-  text-decoration: none;
-  color: #007acc;
-  font-weight: 500;
-}
-
-/* Project cards */
+/* ===============================
+   Project Cards
+================================= */
 .project-card {
   margin-bottom: 1.5rem;
   padding: 1rem;
@@ -110,7 +98,9 @@ nav {
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
-/* Sections */
+/* ===============================
+   Sections
+================================= */
 section {
   padding: 4rem 2rem;
   max-width: 900px;
@@ -124,10 +114,22 @@ footer {
   margin-top: 2rem;
 }
 
-/* Responsive */
+/* ===============================
+   Responsive
+================================= */
 @media (max-width: 768px) {
   .split-screen {
     flex-direction: column;
     height: auto;
+  }
+
+  .left-side,
+  .right-side {
+    flex: none;
+    width: 100%;
+  }
+
+  .right-side {
+    padding-top: 1rem;
   }
 }
