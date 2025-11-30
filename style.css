@@ -46,17 +46,19 @@ nav {
 /* Split-Screen Hero */
 .split-screen {
   display: flex;
-  height: 100vh;
-  flex-wrap: nowrap;
+  height: 100vh; /* full viewport height */
 }
 
-.split-screen .left,
-.split-screen .right {
-  flex: 1;
+.left-side {
+  flex: 1; /* smaller portion */
+  background-color: #f5f5f5;
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+.right-side {
+  flex: 2; /* larger portion */
+  background-color: #e6f2ff;
+  padding: 2rem;
 }
 
 .split-screen .left {
