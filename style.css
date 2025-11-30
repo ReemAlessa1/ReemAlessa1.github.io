@@ -101,6 +101,15 @@ nav {
   font-weight: 500;
 }
 
+/* Project cards */
+.project-card {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
 /* Sections */
 section {
   padding: 4rem 2rem;
