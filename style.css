@@ -48,10 +48,11 @@ nav {
 .nav-links {
   display: flex;
   gap: 1.5rem;
+  color: white;
 }
 
 .nav-links li a:hover {
-  color: #005f99;
+  color: #f8f8f8;
 }
 
 /* ===============================
