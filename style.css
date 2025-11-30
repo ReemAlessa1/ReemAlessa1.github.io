@@ -1,45 +1,23 @@
-.split-screen {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100vh;
-}
-
-.split-screen .left,
-.split-screen .right {
-  flex: 1;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.split-screen .left {
-  background-color: #e6f2ff;
-}
-
-.split-screen .right {
-  background-color: #fff;
-  justify-content: center;
-  align-items: center;
-}
-
-.split-screen img {
+.split-screen .right img {
   max-width: 80%;
   height: auto;
   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
-.contact-links {
+.split-screen .right .dummy-links {
   list-style: none;
   padding: 0;
   margin-top: 1rem;
+  text-align: center;
 }
 
-.contact-links li {
+.split-screen .right .dummy-links li {
   margin-bottom: 0.5rem;
 }
 
-.contact-links li a {
+.split-screen .right .dummy-links li a {
   text-decoration: none;
   color: #007acc;
   font-weight: 500;
