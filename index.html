@@ -1,0 +1,30 @@
+<style>
+  body {
+    display: flex; /* Or display: grid; */
+    height: 100vh; /* Occupy full viewport height */
+    margin: 0;
+  }
+  .pane {
+    flex: 1; /* Or grid-area: left-pane; grid-area: right-pane; */
+    overflow: auto; /* Enable scrolling if content exceeds pane size */
+    border: 1px solid #ccc; /* Optional: for visual separation */
+  }
+  .left-pane {
+    background-color: #f0f0f0;
+  }
+  .right-pane {
+    background-color: #e0e0e0;
+  }
+</style>
+
+<div class="pane left-pane">
+  <!-- Content for the left pane -->
+  <h1>Left Side</h1>
+  <p>This is the content of the left pane.</p>
+</div>
+
+<div class="pane right-pane">
+  <!-- Content for the right pane -->
+  <h1>Right Side</h1>
+  <p>This is the content of the right pane.</p>
+</div>
