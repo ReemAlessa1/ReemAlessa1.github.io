@@ -1,4 +1,3 @@
-# ReemAlessa.github.io
 ## Introduction
 
   There are various views about things to consider while making travel reservations, particularly regarding cost. Individuals typically argue over which season, area or accommodations affect costs the most.
