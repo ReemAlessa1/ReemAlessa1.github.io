@@ -1,0 +1,16 @@
+# _config.yml
+title: "Reem – MSc Computer Science Applicant"
+email: "reem@example.com"
+github_username: "username"
+linkedin_url: "https://linkedin.com/in/profile"
+baseurl: ""  # leave empty for GitHub Pages root
+url: "https://yourusername.github.io"
+
+# Optional: Jekyll theme (can be skipped if using custom CSS)
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - "style.css"
+  - "resume.pdf"
+  - "images"
