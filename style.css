@@ -11,7 +11,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #007acc;
+  color: #007acc; /* Global link color */
   font-weight: 500;
 }
 
@@ -48,11 +48,15 @@ nav {
 .nav-links {
   display: flex;
   gap: 1.5rem;
-  color: white;
+}
+
+/* FIXED: Override global link color */
+.nav-links li a {
+  color: white !important;
 }
 
 .nav-links li a:hover {
-  color: #f8f8f8;
+  color: #f8f8f8 !important;
 }
 
 /* ===============================
@@ -60,22 +64,22 @@ nav {
 ================================= */
 .split-screen {
   display: flex;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .left-side {
-  flex: 1; 
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center !important; 
-  align-items: center !important;    
-  background-color: #f8f8f8 !important;
+  justify-content: center;    /* FIXED centering */
+  align-items: center;        /* FIXED centering */
+  background-color: #f8f8f8;
   padding: 2rem;
-  text-align: center !important;
+  text-align: center;         /* FIXED: text centered */
 }
 
 .right-side {
-  flex: 2; 
+  flex: 2;
   background-color: #e6f2ff;
   padding: 2rem;
   text-align: left; 
