@@ -49,16 +49,24 @@ nav {
   height: 100vh; /* full viewport height */
 }
 
+/* Left side: smaller and centered */
 .left-side {
-  flex: 1; /* smaller portion */
+  flex: 1;               /* smaller portion */
+  display: flex;         /* make it a flex container */
+  flex-direction: column; /* stack content vertically */
+  justify-content: center; /* vertical center */
+  align-items: center;   /* horizontal center */
   background-color: #f5f5f5;
   padding: 2rem;
+  text-align: center;     /* center text */
 }
 
+/* Right side: larger, left-aligned */
 .right-side {
-  flex: 2; /* larger portion */
-  background-color: #e6f2ff;
+  flex: 2;               /* larger portion */
   padding: 2rem;
+  background-color: #e6f2ff;
+  text-align: left;       /* left-aligned text */
 }
 
 .split-screen .left {
